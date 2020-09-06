@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <title>Delete task</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'todo_app/css/index_style.css' %}">
+</head>
+<body>
+    <div class="center-column">
+        <p>This action will permanently delete "{{task.task_title}}" task! Do you want to proceed?</p>
+        <div class="item-row">
+            <form method="POST" action="">
+                {% csrf_token %}
+                <input class="btn btn-sm btn-danger" type="submit" name="Delete">
+            </form>
+            <a class="btn btn-sm btn-info" href="{% url 'todo_app:index' %}">Cancel</a>
+        </div>
+    </div>
+</body>
+</html>
