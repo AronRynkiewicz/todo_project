@@ -4,11 +4,11 @@ Simple todo list made with Python + Django (and basic HTML and CSS of course)
 # Showcase
 You can do some simple things with this app, for example:
 * Add and scroll through Your tasks
-![main_page](https://github.com/AronRynkiewicz/todo_project/blob/master/main_page.png)
+![main_page](https://github.com/AronRynkiewicz/todo_project/blob/master/showcase%20imgs/main_page.png)
 * Edit Your tasks and mark them as complited
-![update_page](https://github.com/AronRynkiewicz/todo_project/blob/master/update_page.png)
+![update_page](https://github.com/AronRynkiewicz/todo_project/blob/master/showcase%20imgs/update_page.png)
 * And delete Your tasks
-![delete_page](https://github.com/AronRynkiewicz/todo_project/blob/master/delete_page.png)
+![delete_page](https://github.com/AronRynkiewicz/todo_project/blob/master/showcase%20imgs/delete_page.png)
 
 # How to run
 For now this app is not available online so the only option is to download code and run it. You need only two things:
