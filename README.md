@@ -1,4 +1,4 @@
-# Todo list using django
+# Overview
 Simple todo list made with Python + Django (and basic HTML and CSS of course)
 
 # Showcase
